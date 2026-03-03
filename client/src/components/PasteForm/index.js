@@ -4,22 +4,13 @@ import { useNavigate } from "react-router-dom";
 import { CREATE_PASTE } from "../../utils/mutations";
 import { QUERY_ME } from "../../utils/queries";
 import auth from "../../utils/auth";
-import Header from "../Header";
-import { removeArgumentsFromDocument } from "@apollo/client/utilities";
 
 const PasteForm = () => {
   
-      const [theme, setTheme] = useState('paste-text-dark');
-  const toggleTheme = () => {
-    if (theme === 'paste-text-dark') {
-      setTheme('past-text');
-    } else {
-      setTheme('paste-text-dark');
-    }
-  };
-  useEffect(() => {
-    document.body.className = theme;
-  }, [theme]);
+      const [theme] = useState('paste-text-dark');
+      useEffect(() => {
+        document.body.className = theme;
+      }, [theme]);
     const navigate = useNavigate();
 
     const [formState, setFormState] = useState({ text: '' });

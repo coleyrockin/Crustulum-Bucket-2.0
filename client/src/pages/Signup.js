@@ -21,7 +21,7 @@ const SignUp = () => {
     
   const [formState, setFormState] = useState({ email: '', password: '' });
   const [addUser, { error }] = useMutation(SIGN_UP_USER);
-  const [login, { error1}] = useMutation(LOGIN_USER);
+  const [login] = useMutation(LOGIN_USER);
 
   const handleChange = (event) => {
     const { name, value } = event.target;

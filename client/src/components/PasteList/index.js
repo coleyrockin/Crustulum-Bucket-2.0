@@ -6,14 +6,7 @@ import { QUERY_ME } from "../../utils/queries";
 import { formatDate } from "../../utils/date";
 
 const PasteList = ({ pastes }) => {
-          const [theme, setTheme] = useState('paste-text-dark');
-  const toggleTheme = () => {
-    if (theme === 'paste-text-dark') {
-      setTheme('past-text');
-    } else {
-      setTheme('paste-text-dark');
-    }
-  };
+          const [theme] = useState('paste-text-dark');
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
