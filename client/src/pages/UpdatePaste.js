@@ -6,14 +6,7 @@ import { QUERY_ME, READ_PASTE } from "../utils/queries";
 import Header from "../components/Header";
 
 const UpdatePaste = () => {
-          const [theme, setTheme] = useState('paste-text-dark');
-  const toggleTheme = () => {
-    if (theme === 'paste-text-dark') {
-      setTheme('past-text');
-    } else {
-      setTheme('paste-text-dark');
-    }
-  };
+          const [theme] = useState('paste-text-dark');
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
