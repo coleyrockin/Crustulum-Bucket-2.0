@@ -5,7 +5,7 @@
     "node": ">=18"
   },
   "main": "server/server.js",
-  "description": "todo",
+  "description": "A full-stack pastebin app built with React, GraphQL, and MongoDB — create shareable, auto-expiring text snippets with JWT authentication.",
   "scripts": {
     "start": "node server/server.js",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
