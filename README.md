@@ -5,7 +5,6 @@
 1. [Description](#Description)
 1. [Technologies Used](#Technologies-Used)
 1. [Installation](#Installation)
-1. [Deployed Instance](#Deployed-Instance)
 1. [Questions](#Questions)
 
 ## Description
@@ -55,13 +54,9 @@ run the development setup:
 $ npm run develop
 ```
 
-## Deployed Instance
-
-[This link](https://crustulum-bucket.herokuapp.com/) will take you to a deployed instance of the app.
-
 ## Questions
 
 - [swvmpdad](https://github.com/swvmpdad)
 - [t-Rummy](https://github.com/T-rummy)
 - [coleyrockin](https://github.com/coleyrockin)
-- [rrrbbbsss](https://github.com/rrrbbbsss)
+- rrrbbbsss

@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rrrbbbsss/Crustulum-Bucket.git"
+    "url": "git+https://github.com/coleyrockin/Crustulum-Bucket-2.0.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rrrbbbsss/Crustulum-Bucket/issues"
+    "url": "https://github.com/coleyrockin/Crustulum-Bucket-2.0/issues"
   },
-  "homepage": "https://github.com/rrrbbbsss/Crustulum-Bucket#readme",
+  "homepage": "https://github.com/coleyrockin/Crustulum-Bucket-2.0#readme",
   "devDependencies": {
     "concurrently": "^7.4.0"
   },
